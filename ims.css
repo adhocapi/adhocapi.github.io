@@ -1,0 +1,434 @@
+/********************** GENERAL *********************/
+
+body {
+  padding: 0;
+  margin: 0;
+  /*background-color: #444e4d;*/
+  background-color: rgba(255, 255, 255, 0.9);   /* propabily the new color
+  /*background-image: url("bg.jpg");*/
+  /*background-position: center;*/
+  /*background-size: cover;*/
+}
+
+.squareItem {
+  border: 3px solid rgba(255,255,255,0.6);
+}
+
+.strechtedItem {
+  border-top: 3px solid rgba(255,255,255,0.6);
+  border-bottom: 3px solid rgba(255,255,255,0.6);
+}
+
+a {
+  text-decoration: none;
+}
+
+/********************** GENERAL *********************/
+
+/********************** NAVIGATION BAR *********************/
+.nav {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  padding: 16px 0;
+  background-color: rgba(0,0,0,0.6);
+  border-bottom: 2px solid black;
+  border-radius: 4px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  height: 55px;
+}
+
+.head {
+  display: inline;
+  color: white;
+  padding: 0 20px;
+}
+
+.head:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 20px;
+}
+
+li a {
+  color: white;
+}
+
+#logo {
+  /*padding-right: 50px;*/
+  font-size: 40px;
+}
+
+.right {
+  float: right;
+  padding-top: 18px;
+}
+
+/********************** NAVIGATION BAR *********************/
+
+/********************** IMAGE *********************/
+
+.image {
+  position: relative;
+  background-image: url("main2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.scroll:hover {
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/********************** IMAGE *********************/
+
+/********************** MAIN TEXT *********************/
+
+.mainText {
+  position: absolute;
+  margin-left: 7%;
+  margin-top: 13%;
+  padding: 5%;
+  width: 75%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 13px 23px rgba(0, 0, 0, 0.1);
+}
+
+.oldHR {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 40%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid #f8f8f8;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 6em;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: white;
+}
+
+#expDown {
+  margin-top: 20px;
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+
+.btn {
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 300;
+  background-color: rgba(204, 38, 38, 0.9);
+  border-radius: 10px;
+  color: white;
+  padding: 12px 24px;
+}
+
+.btn:active {
+  background-color: rgba(119, 22, 22, 0.9);
+  color: rgba(224, 224, 224, 0.9);
+}
+
+/********************** MAIN TEXT *********************/
+
+/********************** ABOUT US *********************/
+
+.aboutMe {
+  position: static;
+  width: 1200px;
+  height: 420px;
+  margin: auto;
+  margin-top: 3%;
+  /*background-color: pink;*/
+}
+
+#aboutUS {
+  font-family: 'Raleway';
+  font-size: 54px;
+  color: white;
+  padding: 2% 0 3% 0;
+  margin: 0;
+
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 13px 23px rgba(0, 0, 0, 0.1);
+}
+
+.aboutMeText {
+  background-color: #2d2b2e;      /*ndryshoje*/
+  /*position: relative;*/
+  padding: 2%;
+  float: left;
+  width: 634px;
+  height: 400px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: white;
+}
+
+#aboutUSText {
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.aboutMeContact {
+  background-color: #2d2b2e;
+  position: sticky;
+  float: left;
+  width: 430px;   /*changed*/
+  height: 430px;
+}
+
+.hrInfo {
+  margin: 5px auto;
+  width: 80%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid #f8f8f8;
+}
+
+.contactInfo {
+  font-family: 'Raleway';
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.textInfo {
+  text-align: center;
+  padding-right: 14%;
+  float: right;
+  margin: 3%;
+}
+.imageInfo {
+  padding: 6% 0 6% 8%;
+  float: left;
+}
+
+.textInfo2 {
+  text-align: center;
+  padding-right: 3%;
+  float: right;
+  margin: 3%;
+}
+
+.imageInfo2 {
+  padding: 10% 0 6% 6%;
+  float: left;
+}
+
+.readmore {
+  float: right;
+}
+
+/********************** ABOUT US *********************/
+
+/********************** PRE-PORTFOLIO-POST *********************/
+/*hr.style-two {
+    border: 0;
+    height: 3px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 70%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}*/
+/********************** PRE-PORTFOLIO-POST *********************/
+
+/********************** PORTFOLIO *********************/
+
+.portfolio {
+  width: 1150px;
+  height: 425px;
+  margin: auto;
+}
+
+.portfolioContainer {
+  margin-top: 3%;
+  background-color: #2d2b2e;
+  padding: 2% 0;
+  height: 1100px;
+  width: 100%;
+}
+
+.divider {
+  height: 200px;
+  width: 100%;
+}
+
+.gallery {
+  width: 22.5%;
+  margin: 0 1%;
+  border: 2px double rgba(255,255,255, 0.7);
+  float: left;
+  background-color: #2d2b2e;
+  height: 100%;
+
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: white;
+  text-align: center;
+
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+  margin: 7%;
+  padding: 1% 1% 0 1%;
+  border: 3px double white;
+}
+
+.sectionHeader {
+  font-size: 4em;
+}
+
+.zoom {
+  max-width: 100%;
+
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.zoom:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.readmoreBTN {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.readmore2 {
+  float: right;
+  margin-right: 7%;
+}
+
+.extraPadd4 {
+  height: 425px;
+}
+
+.lists {
+    text-align: left;
+}
+
+.links {
+  color: white;
+  text-decoration: underline;
+}
+
+.four {
+  padding: 80px 0;
+}
+
+.due2 {
+  padding: 40px 0;
+}
+
+.due {
+  padding: 60px 0;
+}
+/********************** PORTFOLIO *********************/
+
+/********************** SPONSOR *********************/
+
+.sponsor {
+  margin-top: 3%;
+  padding: 2% 0;
+  width: 100%;
+  height: 450px;
+  background-color: #2d2b2e;
+}
+
+.hd {
+  margin-left: 7%;
+}
+
+.members {
+  width: 22.5%;
+  margin: 0 1%;
+  float: left;
+  background-color: #2d2b2e;
+  height: 100%;
+
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: white;
+  text-align: center;
+
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.teammembers {
+  padding: 0 10% 0 10%;
+}
+
+/********************** SPONSOR *********************/
+
+/********************** FOOTER *********************/
+
+.footer {
+  width: 100%;
+  height: 6vh;
+  background-color: #2d2b2e;
+}
+
+.creator {
+  float: right;
+  font-family: 'Raleway';
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+
+  padding-right: 10px;
+  padding-top: 0.5vh;
+}
+
+.copyright {
+  float: none;
+  padding-left: 1vh;
+}
+
+strong a {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+strong a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/********************** FOOTER *********************/

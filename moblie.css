@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(204, 38, 38, 0.9);
+}
+
+div {
+  display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 54px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: white;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+
+span {
+  font-size: 54px;
+}
